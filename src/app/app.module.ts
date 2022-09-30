@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppComponent } from './app.component';
+import { ChildComponent } from './child.component';
+import { TargetDirective } from './target.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    ChildComponent,
+    TargetDirective
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
 })
 export class AppModule { }

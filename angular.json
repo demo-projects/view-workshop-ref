@@ -9,13 +9,16 @@
         "@schematics/angular:component": {
           "inlineTemplate": true,
           "inlineStyle": true,
-          "skipTests": true
+          "skipTests": true,
+          "flat": true
         },
         "@schematics/angular:class": {
           "skipTests": true
         },
         "@schematics/angular:directive": {
-          "skipTests": true
+          "skipTests": true,
+          "flat": true,
+          "standalone": true
         },
         "@schematics/angular:guard": {
           "skipTests": true
