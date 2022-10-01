@@ -23,7 +23,7 @@ console.log(this.vcr.element);
 - we can also get reference to the `node injector`
 
 ```typescript
-console.log(this.vcr.injector;
+console.log(this.vcr.injector);
 ```
 - note that the length of this view container is 0
 - we need to implicitly attach view containers to this view container
@@ -35,3 +35,5 @@ console.log(this.vcr.injector;
 - once we hold a reference to a view container, we can manage views as a group.
 - we can create `EmbeddedViews` or `HostViews` (Components)
 - an anchor element can have only one `ViewContainer` 
+- Explore `ViewContainer` API
+
