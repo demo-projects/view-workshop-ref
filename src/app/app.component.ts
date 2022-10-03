@@ -20,7 +20,6 @@ export class AppComponent {
   modalComponent: Type<any>;
   contentNodes = [[document.createTextNode('BOOOOO')], [document.createTextNode('MOOOOO')]];
 
-
   async loadModal() {
     const componentClass = await import('./demos/part_7_content_projection/modal-projection.component')
     this.modalComponent = componentClass.CustomModalComponent;
